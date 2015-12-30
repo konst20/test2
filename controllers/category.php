@@ -17,7 +17,7 @@ class category extends Controller {
 
     /**
      * Создание категории
-     * формат URL /category/<category name>
+     * формат URL /category/create/<category name>
      * @param $req
      */
     public function create($req){
@@ -45,7 +45,7 @@ class category extends Controller {
 
     /**
      * Редактирование названия категории
-     * формат URL /category/<old category name>/<new category name>
+     * формат URL /category/edit/<old category name>/<new category name>
      * @param $req
      */
     public function edit($req){
@@ -80,7 +80,7 @@ class category extends Controller {
 
     /**
      * Просмотр категорий
-     * формат URL /category/<тип - json или html>/<порядок - asc или desc>
+     * формат URL /category/view/<тип - json или html>/<порядок - asc или desc>
      * @param $req
      */
     public function view($req){
@@ -103,7 +103,7 @@ class category extends Controller {
 
     /**
      * Удаление категории
-     * формат URL /category/<имя категории>
+     * формат URL /category/delete/<имя категории>
      * @param $req
      */
     public function delete($req){

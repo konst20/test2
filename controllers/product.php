@@ -3,7 +3,7 @@ class product extends Controller {
 
     /**
      * Создание продукта
-     * формат URL /product/<название>/<имя категории>/<детали>
+     * формат URL /product/create/<название>/<имя категории>/<детали>
      * @param $req
      */
     public function create($req){
@@ -39,7 +39,7 @@ class product extends Controller {
 
     /**
      * Редактирование деталей продукта
-     * формат URL /product/<название>/<новые детали>
+     * формат URL /product/edit_details/<название>/<новые детали>
      * @param $req
      */
     public function edit_details($req){
@@ -63,7 +63,7 @@ class product extends Controller {
 
     /**
      * Редактирование названия продукта
-     * формат URL /product/<старое название>/<новое название>
+     * формат URL /product/edit_name/<старое название>/<новое название>
      * @param $req
      */
     public function edit_name($req){
@@ -87,7 +87,7 @@ class product extends Controller {
 
     /**
      * Редактирование названия продукта
-     * формат URL /product/<имя продукта>/<имя категории>
+     * формат URL /product/edit_category/<имя продукта>/<имя категории>
      * @param $req
      */
     public function edit_category($req){
@@ -119,7 +119,7 @@ class product extends Controller {
 
     /**
      * Просмотр данных продукта
-     * формат URL /product/<имя продукта>/<тип - html или json>
+     * формат URL /product/view/<имя продукта>/<тип - html или json>
      * @param $req
      */
     public function view($req){
@@ -150,7 +150,7 @@ class product extends Controller {
 
     /**
      * Просмотр продуктов заданной категории
-     * формат URL /product/<имя категории>/<тип - html или json>
+     * формат URL /product/view_products_by_category/<имя категории>/<тип - html или json>
      * @param $req
      */
     public function view_products_by_category($req){
