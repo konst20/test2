@@ -1,0 +1,32 @@
+form#add_user input, form#add_router input, form#add_user select{
+    width: 500px !important;
+}
+#img_uploader {
+    border: 1px solid blue;
+    width: 100px !important;
+    height: 30px !important;
+    border-radius: 3px;
+}
+.dz-preview {
+    display: none;
+}
+.uploaded_img {
+    height: 150px !important;
+}
+.ops a {
+    opacity: 0.2;
+}
+.ops a:hover {
+    opacity: 1;
+}
+.img_div {
+    float: left;
+    margin: 5px;
+}
+.img_div img {
+    height: 200px !important;
+}
+#routers_table {
+    height: 550px !important;
+    overflow-y: scroll;
+}

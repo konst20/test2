@@ -1,0 +1,28 @@
+<table class="table table-bordered table-stripes table-hover" style="width: auto;">
+    <thead>
+    <tr>
+        <th>
+            Название
+        </th>
+        <th>
+            Детальки
+        </th>
+        <th>
+            Категория
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            {$product_data.name}
+        </td>
+        <td>
+            {$product_data.details}
+        </td>
+        <td>
+            {$product_data.category}
+        </td>
+    </tr>
+    </tbody>
+</table>
